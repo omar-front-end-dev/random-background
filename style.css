@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 65px;
+    height: 65px;
+    margin: 10px 10px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+.box:hover,
+.box.selected-color{
+    box-shadow: -3px 3px 7px #737373;
+    border: 1px solid #000000;
+}
+input{
+    margin: 10px 10px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
